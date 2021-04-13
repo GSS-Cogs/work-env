@@ -10,7 +10,7 @@ You'll know when its turned on as `(my-work-environment)` will appear at the sta
 
 _Note - it'll take 5-15 minutes to "sync". Be aware, go make a coffee._
 
-## How do I update things?
+## How do I make sure everything is up to date with the currently deployed Jenkins pipeline build?
 
 `sync`
 
