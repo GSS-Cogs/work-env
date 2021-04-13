@@ -29,4 +29,4 @@ pipenv shell "/c cd $start_dir"
 
 If you want to install additional python libraries that we'd use locally (but not on Jenkins) add them to `additional-requirements.txt`.
 
-If you want to add pipenv scripts (sorta like a bash alias, but unique to the virtual env) you can add them in `./convenience/scripts.sh`. I'll add an example.
+If you want to add pipenv scripts (sorta like a bash alias, but unique to the virtual env) you can add them in `./convenience/scripts.sh`. As an example I added a `csvlint` command that'll just work (no other installs or setup necessary).
