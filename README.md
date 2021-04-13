@@ -43,5 +43,5 @@ Beyond that, iff you're trying to do anything more heavy than running a docker c
 
 | Currently Installed Commands | What does this do? |
 | ---------------------------- | ------------------ |
-| check-deps                   | will tell you if your gssutils or databaker installation is out of date |
+| check-deps                   | will tell you if your gssutils or databaker installation is out of date (i.e if you need to `sync` |
 | csvlint                      | will run csvlint |
