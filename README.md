@@ -1,4 +1,4 @@
-A convenience script for managing a virtual env for work.
+A convenience for managing a virtual env for work.
 
 ## Usage
 
