@@ -41,7 +41,7 @@ If you want to be more clever than that, you can add python scripts to `./conven
 
 Beyond that, iff you're trying to do anything more heavy than running a docker container or a few scripts, this is probably not the right avenue.  
 
-# Handy Things
+## Additional Commands
 
 Given we can add local only commands, we'd best list them and what they do.
 
