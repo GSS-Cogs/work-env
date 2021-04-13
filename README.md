@@ -18,7 +18,7 @@ _Note - it'll take 5-15 minutes to "sync". Be aware, go make a coffee._
 
 You'll need to have `docker` and `pipenv` installed.
 
-Note - you'll either be using bash or zshell (if your not sure your probably using bash). To edit the bashrc or zshellrc (as mentioned below) then open up the relevant file with your favourite text editor, example only: `code ~/.zshrc` or `nano ~/.bashrc`. If the file thus opened is empty, it's probably the wrong one or you've typo'd the command.
+Note - you'll either be using bash or zshell (if your not sure you're probably using bash). To edit the bashrc or zshellrc (as mentioned below) then open up the relevant file with your favourite text editor, example only: `code ~/.zshrc` or `nano ~/.bashrc`. If the file thus opened is empty, it's probably the wrong one or you've typo'd the command.
 
 Installation:
 * `mkdir -p ~/.work-env`
