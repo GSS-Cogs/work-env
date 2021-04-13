@@ -20,10 +20,8 @@ You'll need to have `docker` and `pipenv` installed.
 
 Note - you'll either be using bash or zshell (if your not sure you're probably using bash). To edit the bashrc or zshrc (as mentioned below) then open up the relevant file with your favourite text editor, example only: `code ~/.zshrc` or `nano ~/.bashrc`. If the file thus opened is empty, it's probably the wrong one or you've typo'd the command.
 
-Installation:
-* `mkdir -p ~/.work-env`
-* `curl https://raw.githubusercontent.com/mikeAdamss/work-env/main/setup.sh -o ~/.work-env/sync.sh`
-* `curl https://raw.githubusercontent.com/mikeAdamss/work-env/main/setup.sh -o ~/.work-env/enter.sh`
+Then:
+* git clone https://github.com/mikeAdamss/work-env ~/.work-env
 * `chmod +x ~/.work-env/setup.sh`
 * `chmod +x ~/.work-env/sync.sh`
 * `alias enter=~/.work-env/enter.sh` to your bashrc or zshrc
