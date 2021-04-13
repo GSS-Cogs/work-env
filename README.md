@@ -18,15 +18,15 @@ _Note - it'll take 5-15 minutes to "sync". Be aware, go make a coffee._
 
 You'll need to have `docker` and `pipenv` installed.
 
-Note - you'll either be using bash or zshell (if your not sure your probably using bash). To edit the bashrc or zshellrc as mentioned below then open up the repevant file with your favourite text editor, example only: `code ~/.zshrc` or `nano ~/.bashrc`. If the file ths opened is empty, it's probably the wrong one or you've typo'd it.
+Note - you'll either be using bash or zshell (if your not sure your probably using bash). To edit the bashrc or zshellrc (as mentioned below) then open up the relevant file with your favourite text editor, example only: `code ~/.zshrc` or `nano ~/.bashrc`. If the file thus opened is empty, it's probably the wrong one or you've typo'd the command.
 
-Then
-* run `mkdir -p ~/.work-env`
-* and run `curl https://raw.githubusercontent.com/mikeAdamss/work-env/main/setup.sh -o ~/.work-env/setup.sh`
-* and run `chmod +x ~/.work-env/setup.sh`
-* and run `chmod +x ~/.work-env/sync.sh`
-* add this `alias enter=~/.work-env/enter.sh` to your bashrc or zshrc
-* add this `alias sync=~/.work-env/sync.sh` to your bashrc or zshrc
+Installation:
+* `mkdir -p ~/.work-env`
+* `curl https://raw.githubusercontent.com/mikeAdamss/work-env/main/setup.sh -o ~/.work-env/setup.sh`
+* `chmod +x ~/.work-env/setup.sh`
+* `chmod +x ~/.work-env/sync.sh`
+* `alias enter=~/.work-env/enter.sh` to your bashrc or zshrc
+* `alias sync=~/.work-env/sync.sh` to your bashrc or zshrc
 
 Then close down and reopen your terminal.
 
