@@ -40,3 +40,8 @@ If you want to add pipenv scripts (sorta like a bash alias, but unique to the vi
 If you want to be more clever than that, you can add python scripts to `./convenience/python/<scrip-name>` and make them callable on the command line via the prior comment on scripts. Again they'll be availible to everyone using this helper. Again I've added an example.
 
 Beyond that, iff you're trying to do anything more heavy than running a docker container or a few scripts, this is probably not the right avenue.  
+
+| Currently Installed Commands | What does this do? |
+| ---------------------------- | ------------------ |
+| check-deps                   | will tell you if your gssutils or databaker installation is out of date |
+| csvlint                      | will run csvlint |
