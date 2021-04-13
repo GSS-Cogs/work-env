@@ -21,7 +21,7 @@ Then
 * run `mkdir -p ~/.work-env`
 * and run `curl https://raw.githubusercontent.com/mikeAdamss/work-env/main/setup.sh -o ~/.work-env/setup.sh`
 * and run `chmod +x ~/.work-env/setup.sh`
-* add this `alias start=~/.work-env/start.sh`
+* add this `alias start=~/.work-env/setup.sh`
 
 Then close down and reopen your terminal.
 
