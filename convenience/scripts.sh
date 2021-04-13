@@ -1,3 +1,3 @@
 # Update with any local only dependencies
-curl https://raw.githubusercontent.com/mikeAdamss/work-env/main/convenience/scripts.sh?token=ADQULFOZN73UHF6WFHBW6X3AP4KHS -o requirements.txt
+curl https://raw.githubusercontent.com/mikeAdamss/work-env/main/additional-requirements.txt?token=ADQULFJYSU5LMKKZZBYVQ4LAP4KQE -o requirements.txt
 pipenv install -r requirements.txt
