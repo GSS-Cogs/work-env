@@ -17,17 +17,11 @@ You don't, just `exit` then `enter` again, it'll update itself.
 
 You'll need to have `docker` and `pipenv` installed.
 
-Beyon that just add an alias, you'll need to add the following to either your `~/.bashrc` or `~/.zshrc` file, depending on which you're using.
-
-```bash
-alias enter=start_dir=$(PWD) \
-mkdir -p ~/.work-env/my-work-environment \
-curl https://raw.githubusercontent.com/GSS-Cogs/databaker-docker/master/Pipfile -o ~/.work-env/my-work-environment/Pipfile \
-curl https://raw.githubusercontent.com/GSS-Cogs/databaker-docker/master/Pipfile.lock -o ~/.work-env/my-work-environment/Pipfile.lock \
-export PIPENV_PIPFILE=~/.work-env/my-work-environment/Pipfile \
-pipenv install \
-pipenv shell "/c cd $start_dir"
-```
+Then
+* run `mkdir -p ~/.work-env`
+* and run `curl https://raw.githubusercontent.com/mikeAdamss/work-env/main/setup.sh -o ~/.work-env/setup.sh`
+* and run `chmod +x ~/.work-env/setup.sh`
+* add this `alias start=~/.work-env/start.sh`
 
 ## Wizzy Extra Things
 
