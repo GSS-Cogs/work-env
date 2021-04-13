@@ -23,6 +23,8 @@ Then
 * and run `chmod +x ~/.work-env/setup.sh`
 * add this `alias start=~/.work-env/start.sh`
 
+Then close down and reopen your terminal.
+
 ## Wizzy Extra Things
 
 If you want to install additional python libraries that we'd use locally (but not on Jenkins) add them to `additional-requirements.txt`.
