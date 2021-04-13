@@ -1,11 +1,11 @@
-Conveience script for managing a virtual env for work.
+A convenience script for managing a virtual env for work.
 
 ## Usage
 
 * `enter` to turn it on with all dependencies updated.
 * `exit` to turn it off.
 
-you'll know when its turned on as `(my-work-environment)` will appear at the start of your command line.
+You'll know when its turned on as `(my-work-environment)` will appear at the start of your command line.
 
 ## How do I update things?
 
