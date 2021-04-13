@@ -7,6 +7,8 @@ A convenience for managing a virtual env for work.
 
 You'll know when its turned on as `(my-work-environment)` will appear at the start of your command line.
 
+_Note - it'll take a few minutes._
+
 ## How do I update things?
 
 You don't, just `exit` then `enter` again, it'll update itself.
