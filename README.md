@@ -13,7 +13,7 @@ You don't, just `exit` then `enter` again, it'll update itself.
 
 ## Install
 
-It's just an alias to some bash commands. you'll need to add the following to either your `~/.bashrc` or `~/.zshrc` file, depending on which you're using.
+Is just an alias to some bash commands. you'll need to add the following to either your `~/.bashrc` or `~/.zshrc` file, depending on which you're using.
 
 ```bash
 alias enter=start_dir=$(PWD) \
