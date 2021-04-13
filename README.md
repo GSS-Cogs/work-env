@@ -9,7 +9,7 @@ you'll know when its turned on as `(my-work-environment)` will appear at the sta
 
 ## How do I update things?
 
-You don't, just do `enter` again, it'll update itself.
+You don't, just `exit` then `enter` again, it'll update itself.
 
 ## Install
 
