@@ -13,7 +13,9 @@ You don't, just `exit` then `enter` again, it'll update itself.
 
 ## Install
 
-Is just an alias to some bash commands. you'll need to add the following to either your `~/.bashrc` or `~/.zshrc` file, depending on which you're using.
+You'll need to have `docker` and `pipenv` installed.
+
+Beyon that just add an alias, you'll need to add the following to either your `~/.bashrc` or `~/.zshrc` file, depending on which you're using.
 
 ```bash
 alias enter=start_dir=$(PWD) \
