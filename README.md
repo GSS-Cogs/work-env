@@ -16,7 +16,7 @@ _Note - it'll take 5-15 minutes to "sync". Be aware, go make a coffee._
 
 ## How do I use it
 
-If you open a `jupyter lab` or `jupyter notebook` or `code` or `pycharm` you're got the `(my-work-environment)` virtual environment turned on, all the right thing we be installed.
+If you open a `jupyter lab` or `jupyter notebook` or `code` or `pycharm` while you've got `(my-work-environment)` turned on, all the right thing we be installed.
 
 ## Install
 
