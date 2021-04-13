@@ -35,6 +35,6 @@ If you want to install additional python libraries that we'd use locally (but no
 
 If you want to add pipenv scripts (sorta like a bash alias, but unique to the virtual env) you can add them in `./convenience/scripts.sh`. As an example I added a `csvlint` command that'll just work out of the box (no other installs or setup necessary).
 
-If you want to be more clever than that, you can add python scripts to `./convenience/python/<scrip-name>` and make them callable on the command line via the prior comment on scripts.
+If you want to be more clever than that, you can add python scripts to `./convenience/python/<scrip-name>` and make them callable on the command line via the prior comment on scripts. Again I've added an example.
 
 If you're trying to do anything more heavy than running a docker container or a few scripts, this is probably not the right avenue.  
