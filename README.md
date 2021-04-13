@@ -8,7 +8,7 @@ A convenience for managing a virtual env for work.
 
 You'll know when its turned on as `(my-work-environment)` will appear at the start of your command line.
 
-_Note - it'll take 5-10 minutes. Be aware, go make a coffee._
+_Note - it'll take 5-15 minutes to "sync". Be aware, go make a coffee._
 
 ## How do I update things?
 
