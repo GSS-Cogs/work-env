@@ -13,9 +13,9 @@ You don't, just `exit` then `enter` again, it'll update itself.
 
 ## Install
 
-It's just an alias to some bash commands. you'll need to add the following to either your `~/.bashrc` or `~/.zshrc` file, depending on which you're using (just do eg `code ~./zshrc` and add it at the bottom then save and exit).
+It's just an alias to some bash commands. you'll need to add the following to either your `~/.bashrc` or `~/.zshrc` file, depending on which you're using.
 
-```bash]
+```bash
 alias enter=start_dir=$(PWD) \
 mkdir -p ~/.work-env/my-work-environment \
 curl https://raw.githubusercontent.com/GSS-Cogs/databaker-docker/master/Pipfile -o ~/.work-env/my-work-environment/Pipfile \
