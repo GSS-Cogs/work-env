@@ -41,7 +41,11 @@ If you want to be more clever than that, you can add python scripts to `./conven
 
 Beyond that, iff you're trying to do anything more heavy than running a docker container or a few scripts, this is probably not the right avenue.  
 
-| Currently Installed Commands | What does this do? |
+# Handy Things
+
+Given we can add local only commands, we'd best list them and what they do.
+
+| Command | What does this do? |
 | ---------------------------- | ------------------ |
 | check-deps                   | will tell you if your gssutils or databaker installation is out of date (i.e if you need to `sync`) |
 | csvlint                      | will run csvlint |
