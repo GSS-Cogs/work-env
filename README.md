@@ -28,7 +28,7 @@ To install:
 * git clone https://github.com/mikeAdamss/work-env ~/.work-env
 * `chmod +x ~/.work-env/setup.sh`
 * `chmod +x ~/.work-env/sync.sh`
-* `alias enter=~/.work-env/enter.sh` to your bashrc or zshrc
-* `alias sync=~/.work-env/sync.sh` to your bashrc or zshrc
+* add `alias enter=~/.work-env/enter.sh` to your bashrc or zshrc
+* add `alias sync=~/.work-env/sync.sh` to your bashrc or zshrc
 
 Then close down and reopen your terminal.
