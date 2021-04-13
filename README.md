@@ -22,7 +22,8 @@ Note - you'll either be using bash or zshell (if your not sure you're probably u
 
 Installation:
 * `mkdir -p ~/.work-env`
-* `curl https://raw.githubusercontent.com/mikeAdamss/work-env/main/setup.sh -o ~/.work-env/setup.sh`
+* `curl https://raw.githubusercontent.com/mikeAdamss/work-env/main/setup.sh -o ~/.work-env/sync.sh`
+* `curl https://raw.githubusercontent.com/mikeAdamss/work-env/main/setup.sh -o ~/.work-env/enter.sh`
 * `chmod +x ~/.work-env/setup.sh`
 * `chmod +x ~/.work-env/sync.sh`
 * `alias enter=~/.work-env/enter.sh` to your bashrc or zshrc
