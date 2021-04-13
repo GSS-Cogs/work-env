@@ -1,5 +1,5 @@
 echo Activating virtual env
-dir=$(PWD)
+start_dir=$(PWD)
 mkdir -p ~/.work-env/my-work-environment
 cd ~/.work-env/my-work-environment
 curl https://raw.githubusercontent.com/GSS-Cogs/databaker-docker/master/Pipfile -o ~/.work-env/my-work-environment/Pipfile
