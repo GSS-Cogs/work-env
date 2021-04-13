@@ -1,2 +1,0 @@
-[scripts]
-check-deps = ~/.work-env/my-work-environment/convenience/python/check_dependencies.py
