@@ -26,7 +26,7 @@ Every time you `enter` it checks, if you're out of date it'll shout at you.
 
 ## Install
 
-You'll need to have `docker` and `pipenv` installed.
+You'll need to have `pipenv` installed.
 
 You'll need to know if your terminal is using bash of zshell, you can check this via `echo $SHELL`. 
 
