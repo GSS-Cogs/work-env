@@ -29,7 +29,7 @@ You'll need to have `docker` and `pipenv` installed.
 You'll need to know if your terminal is using bash of zshell, you can check this via `echo $SHELL`. 
 
 To install:
-* git clone https://github.com/mikeAdamss/work-env ~/.work-env
+* `git clone https://github.com/mikeAdamss/work-env ~/.work-env`
 
 Then **if you're using zshell**
 * `chmod +x ~/.work-env/setupzshell.sh`
