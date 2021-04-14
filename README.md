@@ -1,4 +1,4 @@
-A convenience for managing a virtual env for work.
+A convenience for managing a virtual env for work. Only setup for **Macos**.
 
 ## Usage
 
@@ -7,6 +7,8 @@ A convenience for managing a virtual env for work.
 * `exit` to turn it off.
 
 You'll know when its turned on as `(my-work-environment)` will appear at the start of your command line.
+
+It doesn't matter what directory you're in when you run it, it'll work.
 
 _Note - it'll take 5-15 minutes to "sync". Be aware, go make a coffee._
 
