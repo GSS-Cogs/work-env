@@ -35,7 +35,7 @@ Then **if you're using zshell**
 * `chmod +x ~/.work-env/setupzshell.sh`
 * `~/.work-env/setupzshell.sh`
 
-Or **if you're using bash
+Or **if you're using bash**
 * `chmod +x ~/.work-env/setupbash.sh`
 * `~/.work-env/setupbash.sh`
 
