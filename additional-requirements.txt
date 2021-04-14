@@ -1,4 +1,4 @@
 appnope==0.1.0
-pylint = "*"
-autopep8 = "*"
+pylint=="*"
+autopep8=="*"
 git+"https://github.com/GSS-Cogs/airtable-utils.git#egg=reposync
