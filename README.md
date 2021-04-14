@@ -12,7 +12,7 @@ _Note - it'll take 5-15 minutes to "sync". Be aware, go make a coffee._
 
 ## How do I use it
 
-If you open a `jupyter lab` or `jupyter notebook` or `code` or `pycharm` (via the terminal) while you've got `(my-work-environment)` turned on, all the right things we be installed.
+If you open a `jupyter lab` or `jupyter notebook` or `code` or `pycharm` (via the terminal) while you've got `(my-work-environment)` turned on, all the right things will be installed.
 
 ## How do I know if I need to update my dependencies?
 
@@ -40,3 +40,5 @@ Or **if you're using bash**
 * `~/.work-env/setupbash.sh`
 
 Then close down and reopen your terminal.
+
+You'll need to do at last one `sync` before you can `enter` the virtual env.

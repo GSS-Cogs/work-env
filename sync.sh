@@ -8,4 +8,3 @@ curl https://raw.githubusercontent.com/GSS-Cogs/databaker-docker/master/Pipfile.
 export PIPENV_PIPFILE=~/.work-env/my-work-environment/Pipfile
 pipenv install
 pipenv install -r ~/.work-env/additional-requirements.txt
-pipenv shell "cd $start_dir"
