@@ -26,9 +26,17 @@ Every time you `enter` it checks, if you're out of date it'll shout at you.
 
 You'll need to have `docker` and `pipenv` installed.
 
+You'll need to know if your terminal is using bash of zshell, you can check this via `echo $SHELL`. 
+
 To install:
 * git clone https://github.com/mikeAdamss/work-env ~/.work-env
-* `chmod +x ~/.work-env/setup.sh`
-* IF you're using bash, do `~/.work-env/setupbash.sh` **or** IF you're using zshell, do `~/.work-env/setupzshell.sh`
+
+Then **if you're using zshell**
+* `chmod +x ~/.work-env/setupzshell.sh`
+* `~/.work-env/setupzshell.sh`
+
+Or **if you're using bash
+* `chmod +x ~/.work-env/setupbash.sh`
+* `~/.work-env/setupbash.sh`
 
 Then close down and reopen your terminal.
