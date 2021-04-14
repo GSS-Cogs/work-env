@@ -12,7 +12,7 @@ _Note - it'll take 5-15 minutes to "sync". Be aware, go make a coffee._
 
 ## How do I use it
 
-If you open a `jupyter lab` or `jupyter notebook` or `code` or `pycharm` (via the terminal) while you've got `(my-work-environment)` turned on, all the right thing we be installed.
+If you open a `jupyter lab` or `jupyter notebook` or `code` or `pycharm` (via the terminal) while you've got `(my-work-environment)` turned on, all the right things we be installed.
 
 ## How do I know if I need to update my dependencies?
 
