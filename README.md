@@ -32,4 +32,3 @@ To install:
 * IF you're using bash, do `~/.work-env/setupbash.sh` **or** IF you're using zshell, do `~/.work-env/setupzshell.sh`
 
 Then close down and reopen your terminal.
-ß
