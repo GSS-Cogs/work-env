@@ -1,4 +1,4 @@
-A convenience for managing a virtual env for work. Only setup for **Macos**.
+A convenience for managing a virtual env for work. Assumes you're using **Macos**.
 
 ## Usage
 
