@@ -8,7 +8,7 @@ A convenience for managing a virtual env for my work. Will tell you if you need 
 
 You'll know when its turned on as `(my-work-environment)` will appear at the start of your command line.
 
-It doesn't matter what directory you're in when you do `enter`, `exit` or run, it'll still work.
+It doesn't matter what directory you're in when you do `enter`, `exit` or `sync`, it'll still work.
 
 _Note - it'll take 5-15 minutes to "sync". Be aware, go make a coffee._
 
