@@ -16,6 +16,8 @@ _Note - it'll take 5-15 minutes to "sync". Be aware, go make a coffee._
 
 If you open a `jupyter lab` or `jupyter notebook` or `code` or `pycharm` (via the terminal) while you've got `(my-work-environment)` turned on, all the right things will be installed.
 
+Note - for VsCode I mean installed in the integrated terminal, you'll still need to do command+shift+p and "select interpreter" to point it at the right virtual env (it'll be the one with "my-work-emnvironment" in the path). I'd imagine something similar with pycharm.
+
 ## How do I know if I need to update my dependencies?
 
 Every time you `enter` it checks, if you're out of date it'll shout at you.
