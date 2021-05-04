@@ -3,3 +3,4 @@ pylint
 autopep8
 git+git://github.com/GSS-Cogs/airtable-utils.git@master#egg=reposync
 invoke
+pre-commit
