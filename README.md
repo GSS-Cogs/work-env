@@ -1,5 +1,6 @@
 A convenience for managing a virtual env for my work. Will tell you if you need to update things (and handle it for you). Assumes you're **using a mac**.
 
+_Note: once installed this helper will update itself whenever you `sync` (see below)._ 
 ## Usage
 
 * `sync` to create or update a virtual env with all dependencies installed.
