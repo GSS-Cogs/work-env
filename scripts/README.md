@@ -7,7 +7,7 @@ These are intended for use in my my `work-env` toy which has all the correct dep
 
 The one liners are all variations of download>run>delete, which while not exactly subtle its viable and good enough for now.
 
-_Note: for the work-env appraoch I'll be adding a convenience ci when there's enough tricks in this bag to warrant it, but its dependant on bordome and free time at the moment._
+_Note: for the work-env approach I'll be adding a convenience ci when there's enough tricks in this bag to warrant it, but its dependant on bordome and free time at the moment._
 
 
 ### Check Dependencies
