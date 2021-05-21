@@ -35,7 +35,6 @@ headers = {
 # Clear the queue
 for item in task_queue["items"]:
     cancel_queue_item_url = f'https://ci.floop.org.uk/queue/cancelItem?id={item["id"]}'
-    print(cancel_queue_item_url)
     r = requests.post(cancel_queue_item_url, auth=(JENKINS_USER,JENKINS_API_TOKEN))
     if r.status_code != 204:
         print(f'Unable to cancel task: {json.dumps(item["task"])}')
