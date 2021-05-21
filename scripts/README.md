@@ -22,7 +22,7 @@ You also need to have python **requests** installed (if whatever environment you
 
 To run via work env do `python3 ~/.work-env/scripts/stopit.py`
 
-to run stand alone:
+To run stand alone: `curl https://raw.githubusercontent.com/mikeAdamss/work-env/main/scripts/stopit.py --output stopit.py && python3 ./stopit.py && rm .
+/stopit.py`
 
-* download it ``
-* run it ``
+_Note: the second option is literally download>run>delete so subtle as a hammer but it works._
