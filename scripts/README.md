@@ -3,6 +3,10 @@
 
 Various things I use occasionally but don't want to keep track of.
 
+These are intended for use in my my `work-env` toy, but I've included standalone one-liners as preferences tend to vary (if you're running stand alone you'll need to have the dependencies installed, python will tell you fairly promptly if you don't).
+
+_Note: the one liners are all variations of download>run>delete, which while not exactly subtle its viable and good enough for now.`
+
 
 ### Check Dependencies
 
@@ -10,6 +14,7 @@ Checks if the `gssutils` and `databaker` commit ids you have installed match the
 
 _Note: if you're using the `work-env` helper this runs hands free whenever you `enter` the work-env, so you shouldn't need to manually run it, but you can always do `python3 ~/.work-env/scripts/check_dependencies.py` if you need to._
 
+**Stand alone one liner:** `curl https://raw.githubusercontent.com/mikeAdamss/work-env/main/scripts/check_dependencies.py --output check_dependencies.py && python3 ./check_dependencies.py && rm ./check_dependencies.py`
 
 ### Stopit
 
@@ -22,7 +27,6 @@ You also need to have python **requests** installed (if whatever environment you
 
 To run via work env do `python3 ~/.work-env/scripts/stopit.py`
 
-To run stand alone: `curl https://raw.githubusercontent.com/mikeAdamss/work-env/main/scripts/stopit.py --output stopit.py && python3 ./stopit.py && rm .
-/stopit.py`
+**Stand alone one liner:** `curl https://raw.githubusercontent.com/mikeAdamss/work-env/main/scripts/stopit.py --output stopit.py && python3 ./stopit.py && rm ./stopit.py`
 
 _Note: the second option is literally download>run>delete so subtle as a hammer but it works._
