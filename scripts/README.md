@@ -23,7 +23,7 @@ _Note: if you're using the `work-env` helper this runs hands free whenever you `
 Clean the Jenkins build queue on our Jenkins server. You need to have two environment variables installed:
 
 * JENKINS_USER - you jenkins user ID, you can find this by clicking your name after your logging into our Jenkins server.
-* JENKINS_API_TOKEN - an api token you've created via the Jenkins UI. To make one click the little down arrow next to your name on the Jenmins UI (it'll appear when you hover over your name after logging in). Select `configure` then add a new token.
+* JENKINS_API_TOKEN - an api token you've created via the Jenkins UI. To make one click the little down arrow next to your name on the Jenkins UI (it'll appear when you hover over your name after logging in). Select `configure` then add a new token.
 
 Export both variables via:
 ```sh
