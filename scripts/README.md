@@ -5,7 +5,7 @@ Various things I use occasionally but don't want to keep track of.
 
 These are intended for use in my my `work-env` toy which has all the correct dependencies, but I've included standalone one-liners as preferences tend to vary (if you're running stand alone you'll just need to have the dependencies installed, python will tell you fairly promptly if you don't).
 
-_Note: the one liners are all variations of download>run>delete, which while not exactly subtle its viable and good enough for now.`
+_Note: the one liners are all variations of download>run>delete, which while not exactly subtle its viable and good enough for now._
 
 
 ### Check Dependencies
