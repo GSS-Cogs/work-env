@@ -10,8 +10,6 @@ if r.status_code != 200:
     raise RequestException(f'Couldn\'t get queue from url {queue_url}, status code {r.status_code}')
 task_queue = r.json()
 
-print(f'Got task qeueue, has {len(task_queue["items"])} items in it')
-
 # Authentication
 JENKINS_USER = os.getenv("JENKINS_USER", None)
 JENKINS_API_TOKEN = os.getenv("JENKINS_API_TOKEN", None)
