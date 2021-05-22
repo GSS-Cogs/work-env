@@ -29,7 +29,7 @@ def clean_jenkins_queue():
         You can get both by clicking your user name in the top right hand corner
         after logging into our jenkins server (click vredentials to set an api token).
 
-        Export them on teh command line via "export JENKINS_USER=<your username" etc
+        Export them on the command line via "export JENKINS_USER=<your username" etc
         or add them to ~/.bashrc or ~/.zshrc and restarrt yor terminal.
         ''')
 

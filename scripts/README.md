@@ -3,7 +3,7 @@
 
 Various things I use occasionally but don't want to keep track of.
 
-These are intended for use in my my `work-env` toy which has all the correct dependencies, but I've included standalone one-liners as preferences tend to vary (if you're running stand alone you'll just need to have the dependencies installed, python will tell you fairly promptly if you don't).
+These are intended for use in my my `work-env` toy which has all the correct dependencies, but I've included standalone one-liners as preferences tend to vary (if you're running as stand alone scripts you'll just need to have the dependencies installed, python will tell you fairly promptly if you don't. I'm keeping everything as light touch as I can for that reason).
 
 The one liners are all variations of download>run>delete, which while not exactly subtle its viable and good enough for now.
 
@@ -34,7 +34,7 @@ _Note: if you're using the `work-env` helper this runs hands free whenever you `
 
 ### Clear Jenkins Build Queue
 
-Clean the Jenkins build queue on our Jenkins server. You need to have two environment variables installed:
+Clears the Jenkins build queue on our Jenkins server. You need to have two environment variables exported:
 
 * JENKINS_USER - you jenkins user ID, you can find this by clicking your name after your logging into our Jenkins server.
 * JENKINS_API_TOKEN - an api token you've created via the Jenkins UI. To make one click the little down arrow next to your name on the Jenkins UI (it'll appear when you hover over your name after logging in). Select `configure` then add a new token.
