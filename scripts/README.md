@@ -7,7 +7,21 @@ These are intended for use in my my `work-env` toy which has all the correct dep
 
 The one liners are all variations of download>run>delete, which while not exactly subtle its viable and good enough for now.
 
-_Note: for the work-env approach I'll be adding a convenience cli when there's enough scripts to warrant it, but its dependant on bordome and free time at the moment._
+## Cli
+
+If you're using `work-env` you can install as follows (if new scripts are added they'll become availible automatically when you `sync`).
+
+Using **bash** run `echo "alias cli="python3 ~/.work-env/scripts/cli.py"  >> ~/.bashrc`
+
+_or_
+
+Using **zshell** run `echo "alias cli="python3 ~/.work-env/scripts/cli.py""  >> ~/.zshrc`
+
+Then restart your terminal. From the on whrn you type `cli` it'll give you a help screen listing the commands and calling args.
+
+A few of these scripts will required environment variables and the like (things that interact with Jenkins, git etc). If you don't have them exported the script will tell you what you're missing and how to set it up when you go to run it.
+
+_Note: since not everyones likes to use venvs I've listed one-lines to run these as well._
 
 
 ### Check Dependencies
@@ -18,7 +32,7 @@ _Note: if you're using the `work-env` helper this runs hands free whenever you `
 
 **Stand alone one liner:** `curl https://raw.githubusercontent.com/mikeAdamss/work-env/main/scripts/check_dependencies.py --output check_dependencies.py && python3 ./check_dependencies.py && rm ./check_dependencies.py`
 
-### Stopit
+### Clear Jenkins Build Queue
 
 Clean the Jenkins build queue on our Jenkins server. You need to have two environment variables installed:
 

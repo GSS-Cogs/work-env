@@ -47,3 +47,7 @@ Or **if you're using bash**
 Then close down and reopen your terminal.
 
 You'll need to do at last one `sync` before you can `enter` the virtual env.
+
+## Scripts
+
+I'm gradually adding useful scripts to this work-env but its needs one more line of setup. To see what they are and set that up see [https://github.com/mikeAdamss/work-env/blob/main/scripts/README.md](https://github.com/mikeAdamss/work-env/blob/main/scripts/README.md).
