@@ -28,7 +28,7 @@ _Note: since not everyones likes to use venvs I've listed one-lines to run these
 
 Checks if the `gssutils` and `databaker` commit ids you have installed match the latest released as defined in the Pipfile.lock here: [https://github.com/GSS-Cogs/databaker-docker](https://github.com/GSS-Cogs/databaker-docker) 
 
-_Note: if you're using the `work-env` helper this runs hands free whenever you `enter` the work-env, so you shouldn't need to manually run it, but you can always do `python3 ~/.work-env/scripts/check_dependencies.py` if you need to._
+_Note: if you're using the `work-env` helper this runs hands free whenever you `enter` the work-env, so you shouldn't need to manually run it.
 
 **Stand alone one liner:** `curl https://raw.githubusercontent.com/mikeAdamss/work-env/main/scripts/check_dependencies.py --output check_dependencies.py && python3 ./check_dependencies.py && rm ./check_dependencies.py`
 
