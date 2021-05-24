@@ -17,7 +17,7 @@ _or_
 
 Using **zshell** run `echo "alias cli="python3 ~/.work-env/scripts/cli.py""  >> ~/.zshrc`
 
-Then restart your terminal. From the on whrn you type `cli` it'll give you a help screen listing the commands and calling args.
+Then restart your terminal. From the on when you type `cli` it'll give you a help screen listing the commands and calling args.
 
 A few of these scripts will required environment variables and the like (things that interact with Jenkins, git etc). If you don't have them exported the script will tell you what you're missing and how to set it up when you go to run it.
 
