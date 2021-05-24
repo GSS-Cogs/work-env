@@ -49,6 +49,4 @@ I'd suggest you also those lines to `~/.bashrc` or `~/.zshrc` directly, save rep
 
 You also need to have python **requests** installed (if whatever environment you're using in work doesn't have that you have larger problems that stopping Jenkins jobs).
 
-To run via work env do `python3 ~/.work-env/scripts/stopit.py`
-
 **Stand alone one liner:** `curl https://raw.githubusercontent.com/mikeAdamss/work-env/main/scripts/stopit.py --output stopit.py && python3 ./stopit.py && rm ./stopit.py`
