@@ -1,6 +1,5 @@
 import sys 
 import subprocess
-
 import requests
 
 
@@ -15,7 +14,7 @@ def check_deps():
         databaker_should_be = lock["default"]["databaker"]["ref"]
 
         process = subprocess.Popen(['pip', 'freeze'], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-        output, err = process.communicate()
+        output, _ = process.communicate()
 
         for req in output.decode("utf-8").split("\n"):
 
