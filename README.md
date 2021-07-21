@@ -1,53 +1,31 @@
-A convenience for managing a virtual env for my work. Will tell you if you need to update things (and handle it for you). Assumes you're **using a mac**.
 
-_Note: once installed this helper will update itself whenever you `sync` (see below)._ 
-## Usage
+# Work Environment
 
-* `sync` to create or update a virtual env with all dependencies installed.
-* `enter` to turn it on.
-* `exit` to turn it off.
+A local environment managment tool designed to address the following.
 
-You'll know when its turned on as `(my-work-environment)` will appear at the start of your command line.
+* Fully automate dependency management.
+* Avoid establishing a dependency on any one IDE solution.
+* Make it **easy**.
+* Allow individual users to easily extend their version of the envionrment to meet their own work processes.
 
-It doesn't matter what directory you're in when you do `enter`, `exit` or `sync`, it'll still work.
+## Managment
 
-_Note - it'll take 5-15 minutes to "sync". Be aware, go make a coffee._
+Once installed:
 
-## How do I use it
+* `enter` turns on your work envionrment **and** warns where any dependencies are behind those deployed on live.
+* `exit` turns it off.
+* `sync` automatically updates all dependencies.
 
-If you open a `jupyter lab` or `jupyter notebook` or `code` or `pycharm` (via the terminal) while you've got `(my-work-environment)` turned on, all the right things will be installed.
+`sync` also updates to the latest version of this tool, so nothing should be required once you've completed installation.
 
-_Note: for VsCode I mean things will be installed in the integrated terminal, you'll still need to do command+shift+p and "Python: Select Interpreter" to point it at the right virtual env (it'll be the one with "my-work-environment" in the path). I'd imagine something similar for pycharm users._
+## Use with IDEs
 
-## How do I know if I need to update my dependencies?
+When you `enter` your work env, you'll see `(my-work-envionment)` before your terminal prompt, this means your virtual environment is active. Any command run on that terminal will have access to our full stack.
 
-Every time you `enter` it checks, if you're out of date it'll shout at you.
+For Jupyter labs or notebooks just have `(my-work-envionment)` active when you open the notebook or lab.
 
-## How do I update my dependencies?
+For dev style IDE's you typically need to point the IDE at `my-work-environment`. For example, in vscode press `cmd+shift+p` then "select python interpreter" from there just selet appropriately (it's a simlar process for PyCharm).
 
-`sync`
+## Installation
 
-## Install
-
-You'll need to have `pipenv` installed.
-
-You'll need to know if your terminal is using bash of zshell, you can check this via `echo $SHELL`. 
-
-To install:
-* `git clone https://github.com/mikeAdamss/work-env ~/.work-env`
-
-Then **if you're using zshell**
-* `chmod +x ~/.work-env/setupzshell.sh`
-* `~/.work-env/setupzshell.sh`
-
-Or **if you're using bash**
-* `chmod +x ~/.work-env/setupbash.sh`
-* `~/.work-env/setupbash.sh`
-
-Then close down and reopen your terminal.
-
-You'll need to do at last one `sync` before you can `enter` the virtual env.
-
-## Scripts
-
-I'm gradually adding useful scripts to this work-env but its needs one more line of setup. To see what they are and set that up see [https://github.com/mikeAdamss/work-env/blob/main/scripts/README.md](https://github.com/mikeAdamss/work-env/blob/main/scripts/README.md).
+Please see [installation]([https://github.com/mikeAdamss/work-env/blob/main/installation.md](https://github.com/mikeAdamss/work-env/blob/main/installation.md))

@@ -9,8 +9,8 @@ def run_script(choice: str):
     """
 
     commands = Box({
-        "JenkinsClearQueue": ["jcq"],
-        "CheckDependencies": ["check"]
+        "JenkinsClearQueue": ["jcq", "jenkinsclearqueue"],
+        "CheckDependencies": ["check", "checkdependencies"]
     })
 
     # Simple default help
@@ -29,13 +29,13 @@ def run_script(choice: str):
         """)
 
 
-    elif choice.lower() in commands.JenkinsClearQueue or choice.lower() == "checkdependencies":
-        from check_dependencies import check_deps
-        check_deps()
-
-    elif choice.lower() in commands.CheckDependencies or choice.lower() == "jenkinsclearqueue":
+    elif choice.lower() in commands.JenkinsClearQueue:
         from stopit import clean_jenkins_queue
         clean_jenkins_queue()
+
+    elif choice.lower() in commands.CheckDependencies:
+        from check_dependencies import check_deps
+        check_deps()
 
     else:
         print(f'''\nUnrecognised command {choice}. 

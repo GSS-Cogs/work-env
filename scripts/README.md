@@ -3,25 +3,23 @@
 
 Various things I use occasionally but don't want to keep track of.
 
-These are intended for use in my my `work-env` toy which has all the correct dependencies, but I've included standalone one-liners as preferences tend to vary (if you're running as stand alone scripts you'll just need to have the dependencies installed, python will tell you fairly promptly if you don't. I'm keeping everything as light touch as I can for that reason).
+These are intended for use in my my `work-env` toy which has all the correct dependencies, but I've included standalone one-liners as preferences tend to vary (if you're running as stand alone scripts you'll just need to have the dependencies installed, python will tell you fairly promptly if you don't. I'm keeping everything as light touch as I can).
 
-The one liners are all variations of download>run>delete, which while not exactly subtle its viable and good enough for now.
+The one liners are all variations of download>run>delete, which while not exactly subtle its viable.
 
 ## Cli
 
 If you're using `work-env` you can install as follows (if new scripts are added they'll become availible automatically when you `sync`).
 
-Using **bash** run `echo "alias cli="python3 ~/.work-env/scripts/cli.py"  >> ~/.bashrc`
+Using **bash** run `echo alias cli="python3 ~/.work-env/scripts/cli.py"  >> ~/.bashrc`
 
 _or_
 
-Using **zshell** run `echo "alias cli="python3 ~/.work-env/scripts/cli.py""  >> ~/.zshrc`
+Using **zshell** run `echo alias cli="python3 ~/.work-env/scripts/cli.py"  >> ~/.zshrc`
 
 Then restart your terminal. From the on when you type `cli` it'll give you a help screen listing the commands and calling args.
 
-A few of these scripts will required environment variables and the like (things that interact with Jenkins, git etc). If you don't have them exported the script will tell you what you're missing and how to set it up when you go to run it.
-
-_Note: since not everyones likes to use venvs I've listed one-lines to run these as well._
+A few of these scripts will require environment variables and the like (things that interact with Jenkins, git etc). If you don't have them exported the script will tell you what you're missing and how to set it up when you go to run it.
 
 
 ### Check Dependencies
