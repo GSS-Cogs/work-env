@@ -10,7 +10,13 @@ A local environment managment tool designed to address the following.
 * Allow individual users to easily extend their version of the envionrment to meet their own work processes.
 * Create a central scripts repository for all users.
 
-## How does it work?
+### How does it work?
+
+We're using the `Pipfile.lock` that informs the (databaker-docker)[https://github.com/GSS-Cogs/databaker-docker] container (the container Jenkins uses to run data transforms) as our principle source of truth.
+
+On top of that we;re adding additional dependencies we only want when developing (see `additional-requirments.txt`) plus any custom per-user libraries (we all have our preferences).
+
+## Usage
 
 Once installed:
 
