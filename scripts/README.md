@@ -5,7 +5,7 @@ Various things I use occasionally but don't want to keep track of.
 
 These are intended for use in the `work-env` helper which has all the correct dependencies, but I've included standalone one-liners as preferences tend to vary (if you're running as stand alone scripts you'll just need to have the dependencies installed, python will tell you fairly promptly if you don't. I'm keeping everything as light touch as I can).
 
-The one liners are all variations of download>run>delete, which while not exactly subtle its viable.
+The one liners are all variations of download>run>delete, which while not exactly subtle is viable.
 
 ## Install The Cli
 
