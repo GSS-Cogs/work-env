@@ -19,7 +19,7 @@ Note - **requires you to be using a macbook**.
 
 Once installed:
 
-* `enter` turns on your work virtual envionment **and** warns where any specified dependencies are behind the versions deployed on live. Once you've `enter`ed the venv "(my-work-environment)" will appear before your command prompt.
+* `enter` turns on your work virtual envionment **and** warns where any specified dependencies are behind the versions deployed on live.
 * `exit` turns it off.
 * `sync` automatically updates all dependencies.
 * `cli` (when you've got "my-work-environment" turned on) lists details and commands for all the built in scripts.
