@@ -2,7 +2,7 @@ tags: example help
 name: How to use this tool
 
     * The underlying snippets tool is call brain (sorry not sorry) and each snippet is considered a 'thought'.
-    * Each thought is stored in the github repo as a txt file in `scripts/thoughts`
+    * Each 'thought' is stored in the github repo as a txt file in `scripts/thoughts`
     * Each thought consists of:
         - space separated tags on line 1
         - a title on line 2
@@ -11,5 +11,7 @@ name: How to use this tool
     * You CAN extend with personal snippets via pointing to a local directory with the environment variable `MY_LOCAL_BRAIN_SNIPPETS`
     
 Usage:
-* Call without further arguments for a summary of all thoughts and tags.
-* Call with tags (i.e "cli brain tag1 tag2") to display relevant snippets.
+* Call without arguments (i.e cli brain) for a summary of all tags and item count per tag.
+* Call with tags (i.e "cli brain tag1 tag2") to display relevant snippets. 
+
+Note - text colour will alternate between blue and green per snippet to keep longer or less precised lists of snippets more readable.
