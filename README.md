@@ -14,7 +14,7 @@ A local environment managment tool designed to address the following.
 
 We're using the `Pipfile.lock` that informs the (databaker-docker)[https://github.com/GSS-Cogs/databaker-docker] container (the container Jenkins uses to run data transforms) as our principle source of truth.
 
-On top of that we;re adding additional dependencies we only want when developing (see `additional-requirments.txt`) plus any custom per-user libraries (we all have our preferences).
+On top of that we add any standard team-wide python packages we only want when developing, plus any per-uspecific-ser packages (for example, I use better-exception in my evn, but not everyone will - work-env supports this).
 
 ## Usage
 
