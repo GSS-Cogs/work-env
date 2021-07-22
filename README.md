@@ -1,7 +1,7 @@
 
 # Work Environment
 
-A virtual environment managment tool designed to address the following. This tool **assumes you're using a macbook**.
+A virtual environment managment tool for building and running our data transformation pipelines. 
 
 * Fully automate dependency management.
 * Loudly **warn users** where key dependencies are out of sync with live.
@@ -11,6 +11,9 @@ A virtual environment managment tool designed to address the following. This too
 * Create a convenient script runner cli to share useful functionality across the whole team
 
 This tool handlers all that via shell and simple python scripts and boils it all down to _four_ simple commands.
+
+Note - **requires you to be using a macbook**.
+
 
 ## Usage
 
