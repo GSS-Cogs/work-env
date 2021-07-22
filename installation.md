@@ -40,4 +40,4 @@ Feel free to pr your own preference choices in 👍
 
 ## Scripts
 
-I'm gradually adding useful scripts to this work-env. They are installed (and updated when new ones are added) automatically. For more infomation see [https://github.com/mikeAdamss/work-env/blob/main/scripts/README.md](https://github.com/mikeAdamss/work-env/blob/main/scripts/README.md).
+I'm gradually adding useful scripts to this work-env. They are installed (and updated when new ones are added) automatically. For more infomation see [scripts](https://github.com/mikeAdamss/work-env/blob/main/scripts/README.md).
