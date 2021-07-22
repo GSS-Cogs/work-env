@@ -28,7 +28,7 @@ You'll need to do at last one `sync` before you can `enter` the virtual env.
 
 You can add additional python dependencies by specifying a python requirments (.txt) file path (or url to same) via setting the envionment variable `WORKENV_CUSTOM_REQS`.
 
-For convenience I've added a directory to this repo that my own extras are in which ive got exported with:
+For example: I've added a directory to this repo that my own extras are in which I've currently got exported via:
 
 ```
 export WORKENV_CUSTOM_REQS="https://raw.githubusercontent.com/mikeAdamss/work-env/main/user-reqs/mike.txt"
