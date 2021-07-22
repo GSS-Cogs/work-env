@@ -9,7 +9,7 @@ A local environment managment tool designed to address the following.
 * Allow individual users to easily extend their version of the envionrment to meet their own work processes.
 * Create a central scripts repository for all users.
 
-## How dors it work?
+## How does it work?
 
 Once installed:
 
