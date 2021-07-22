@@ -20,10 +20,10 @@ A few of these scripts will require environment variables and the like (things t
 ---
 ## Scripts
 
-Currently installed scripts, in on particular order.
+Currently installed scripts in no particular order.
 
 
-### Check Dependencies
+#### Script: Check Dependencies
 
 Checks thats the ids (either commit ids of version references) for all libraries listed in `/scripts/dependency_checklist.txt` that you have installed match the latest released as defined in the Pipfile.lock here: [https://github.com/GSS-Cogs/databaker-docker](https://github.com/GSS-Cogs/databaker-docker).
 
@@ -31,7 +31,7 @@ _Note - this runs automatically wheneer you `enter` so it's rare that you'd need
 
 
 
-### Clear Jenkins Build Queue
+#### Script: Clear Jenkins Build Queue
 
 Clears the Jenkins build queue on our Jenkins server. You need to have two environment variables exported:
 
