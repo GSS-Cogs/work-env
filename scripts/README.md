@@ -50,3 +50,5 @@ A tag based cli snippet manager. Each snippet is stored as a "thought" (an appri
 
 * PR them at the main branch (recommended).
 * Expand the shared snippets by exporting the path to a local directory of your own personal "thoughts" using the environment variable `ADDITIONAL_BRAIN_SNIPPETS`.
+
+Note: the odd name is because its a copy paste from another somewhat facetious pet project called [brain](https://github.com/mikeAdamss/brain) and (at some point) it'll just be installed from there rather than the current copy-paste over.
