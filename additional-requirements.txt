@@ -2,5 +2,5 @@ appnope==0.1.0
 pylint
 autopep8
 git+git://github.com/GSS-Cogs/airtable-utils.git@master#egg=reposync
-git+git://github.com/GSS-Cogs/airtable-utils.git@master#egg=detemplater
+git+git://github.com/GSS-Cogs/de-templater.git@master#egg=detemplater
 flake8
