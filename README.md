@@ -26,8 +26,6 @@ Once installed:
 
 `sync` also updates to the latest version of this tool, so everything should be very hands off once you've completed installation.
 
-_Note: `sync` is thorough but slow, don't do it trivially and do go make a coffee because it'll be 10-20 minutes._
-
 ## Use with IDEs
 
 When you `enter` your work env, you'll see `(my-work-environment)` before your terminal prompt, this means your virtual environment is active. Any command run on that terminal will have access to our full transform stack plus development packages and any personal preference packages you've specified.
