@@ -21,11 +21,11 @@ Once installed:
 
 ## Use with IDEs
 
-When you `enter` your work env, you'll see `(my-work-envionment)` before your terminal prompt, this means your virtual environment is active. Any command run on that terminal will have access to our full stack.
+When you `enter` your work env, you'll see `(my-work-environment)` before your terminal prompt, this means your virtual environment is active. Any command run on that terminal will have access to our full stack.
 
 For Jupyter labs or notebooks just have `(my-work-envionment)` active when you open the notebook or lab.
 
-For dev style IDE's you typically need to point the IDE at `my-work-environment`. For example, in vscode press `cmd+shift+p` then "select python interpreter" from there just selet appropriately (it's a simlar process for PyCharm).
+For dev style IDE's you typically need to point the IDE at `my-work-environment`. For example, in vscode press `cmd+shift+p` then "select python interpreter" from there just select appropriately (it's a simlar process for PyCharm).
 
 ## Installation
 
