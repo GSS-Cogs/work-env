@@ -15,7 +15,7 @@ Using **zshell** run `echo alias cli="python3 ~/.work-env/scripts/cli.py"  >> ~/
 
 Then restart your terminal. From the on when you type `cli` while `my-work-environemnt` is active it'll give you a help screen listing the commands and calling args.
 
-A few of these scripts will require environment variables and the like (things that interact with Jenkins, git etc). If you don't have them exported the script will tell you what you're missing and how to set it up when you go to run it.
+A few of these scripts will require environment variables and the like (things that interact with Jenkins, git etc). If you don't have them exported the script in question will tell you what you're missing and how to set it up when you go to run it.
 
 ---
 ## Scripts
