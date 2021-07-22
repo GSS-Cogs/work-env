@@ -28,7 +28,7 @@ def check_deps():
                     try:
                         # Installed from pypi so looking for version
                         lib_commit_dir[lib_name] = lock["default"][lib_name]["version"]
-                    except:
+                    except KeyError:
                         print(f"Aborting checks for {lib_name}. No such library defined in Pipfile.lock!")
 
         # Use a pip freeze to check we're for what we need

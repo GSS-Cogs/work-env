@@ -3,11 +3,11 @@
 
 Various things I use occasionally but don't want to keep track of.
 
-These are intended for use in my my `work-env` toy which has all the correct dependencies, but I've included standalone one-liners as preferences tend to vary (if you're running as stand alone scripts you'll just need to have the dependencies installed, python will tell you fairly promptly if you don't. I'm keeping everything as light touch as I can).
+These are intended for use in the `work-env` helper which has all the correct dependencies, but I've included standalone one-liners as preferences tend to vary (if you're running as stand alone scripts you'll just need to have the dependencies installed, python will tell you fairly promptly if you don't. I'm keeping everything as light touch as I can).
 
 The one liners are all variations of download>run>delete, which while not exactly subtle its viable.
 
-## Cli
+## Install The Cli
 
 If you're using `work-env` you can install as follows (if new scripts are added they'll become availible automatically when you `sync`).
 
@@ -17,14 +17,14 @@ _or_
 
 Using **zshell** run `echo alias cli="python3 ~/.work-env/scripts/cli.py"  >> ~/.zshrc`
 
-Then restart your terminal. From the on when you type `cli` it'll give you a help screen listing the commands and calling args.
+Then restart your terminal. From the on when you type `cli` while `my-work-environemnt` is active it'll give you a help screen listing the commands and calling args.
 
 A few of these scripts will require environment variables and the like (things that interact with Jenkins, git etc). If you don't have them exported the script will tell you what you're missing and how to set it up when you go to run it.
 
 
 ### Check Dependencies
 
-Checks if the `gssutils` and `databaker` commit ids you have installed match the latest released as defined in the Pipfile.lock here: [https://github.com/GSS-Cogs/databaker-docker](https://github.com/GSS-Cogs/databaker-docker) 
+Checks thats the ids (either commit ids of versio references) for all libraries listed in `/scripts/dependency_checklist..txt` you have installed match the latest released as defined in the Pipfile.lock here: [https://github.com/GSS-Cogs/databaker-docker](https://github.com/GSS-Cogs/databaker-docker) 
 
 _Note: if you're using the `work-env` helper this runs hands free whenever you `enter` the work-env, so you shouldn't need to manually run it.
 

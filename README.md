@@ -7,16 +7,17 @@ A local environment managment tool designed to address the following.
 * Avoid establishing a dependency on any one IDE solution.
 * Make it **easy**.
 * Allow individual users to easily extend their version of the envionrment to meet their own work processes.
+* Create a central scripts repository for all users.
 
-## Managment
+## How dors it work?
 
 Once installed:
 
-* `enter` turns on your work envionrment **and** warns where any dependencies are behind those deployed on live.
+* `enter` turns on your work virtual envionment **and** warns where any specified dependencies are behind the versions deployed on live.
 * `exit` turns it off.
 * `sync` automatically updates all dependencies.
 
-`sync` also updates to the latest version of this tool, so nothing should be required once you've completed installation.
+`sync` also updates to the latest version of this tool, so neverything should be very hands off once you've completed installation.
 
 ## Use with IDEs
 
@@ -28,4 +29,4 @@ For dev style IDE's you typically need to point the IDE at `my-work-environment`
 
 ## Installation
 
-Please see [installation]([https://github.com/mikeAdamss/work-env/blob/main/installation.md](https://github.com/mikeAdamss/work-env/blob/main/installation.md))
+Please see [installation](https://github.com/mikeAdamss/work-env/blob/main/installation.md).
