@@ -20,7 +20,9 @@ A few of these scripts will require environment variables and the like (things t
 
 ### Check Dependencies
 
-Checks thats the ids (either commit ids of version references) for all libraries listed in `/scripts/dependency_checklist.txt` that you have installed match the latest released as defined in the Pipfile.lock here: [https://github.com/GSS-Cogs/databaker-docker](https://github.com/GSS-Cogs/databaker-docker) 
+Checks thats the ids (either commit ids of version references) for all libraries listed in `/scripts/dependency_checklist.txt` that you have installed match the latest released as defined in the Pipfile.lock here: [https://github.com/GSS-Cogs/databaker-docker](https://github.com/GSS-Cogs/databaker-docker).
+
+_Note - this runs automatically wheneer you `enter` so it's rare that you'd need to call this from the cli directly._
 
 
 ### Clear Jenkins Build Queue
