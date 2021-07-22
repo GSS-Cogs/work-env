@@ -4,7 +4,7 @@
 A local environment managment tool designed to address the following.
 
 * Fully automate dependency management.
-* Automatically **warn users** if key dependencies are out of sync with live.
+* Loudly **warn users** where key dependencies are out of sync with live.
 * Avoid establishing a dependency on any one IDE solution.
 * Make it **easy**.
 * Allow individual users to easily extend their version of the envionrment to meet their own work processes.
