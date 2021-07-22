@@ -3,10 +3,6 @@
 
 Various things I use occasionally but don't want to keep track of.
 
-These are intended for use in the `work-env` helper which has all the correct dependencies, but I've included standalone one-liners as preferences tend to vary (if you're running as stand alone scripts you'll just need to have the dependencies installed, python will tell you fairly promptly if you don't. I'm keeping everything as light touch as I can).
-
-The one liners are all variations of download>run>delete, which while not exactly subtle is viable.
-
 ## Install The Cli
 
 If you're using `work-env` you can install as follows (if new scripts are added they'll become availible automatically when you `sync`).
@@ -26,9 +22,6 @@ A few of these scripts will require environment variables and the like (things t
 
 Checks thats the ids (either commit ids of version references) for all libraries listed in `/scripts/dependency_checklist.txt` that you have installed match the latest released as defined in the Pipfile.lock here: [https://github.com/GSS-Cogs/databaker-docker](https://github.com/GSS-Cogs/databaker-docker) 
 
-_Note: if you're using the `work-env` helper this runs hands free whenever you `enter` the work-env, so you shouldn't need to manually run it.
-
-**Stand alone one liner:** `curl https://raw.githubusercontent.com/mikeAdamss/work-env/main/scripts/check_dependencies.py --output check_dependencies.py && python3 ./check_dependencies.py && rm ./check_dependencies.py`
 
 ### Clear Jenkins Build Queue
 
@@ -45,6 +38,6 @@ export JENKINS_API_TOKEN=<your user token>
 
 I'd suggest you also those lines to `~/.bashrc` or `~/.zshrc` directly, save repeating yourself if you need to clear the queue again.
 
-You also need to have python **requests** installed (if whatever environment you're using in work doesn't have that you have larger problems that stopping Jenkins jobs).
+You can also run this one with a **stand alone one liner:**
 
-**Stand alone one liner:** `curl https://raw.githubusercontent.com/mikeAdamss/work-env/main/scripts/stopit.py --output stopit.py && python3 ./stopit.py && rm ./stopit.py`
+```curl https://raw.githubusercontent.com/mikeAdamss/work-env/main/scripts/stopit.py --output stopit.py && python3 ./stopit.py && rm ./stopit.py```
