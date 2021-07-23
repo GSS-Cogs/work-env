@@ -10,7 +10,7 @@ A virtual environment managment tool for building and running our data transform
 * Allow individual users to easily extend their virtual env with personal preferences, i.e support additional per-user packages where there's an element of personal choice involved (for example: I like to use `better-exceptions` but not everyone does).
 * Create a convenient script runner cli to share useful functionality across the whole team
 
-This tool handlers all that via shell and simple python scripts and boils it all down to _four_ simple commands.
+This tool handles all that via shell and simple python scripts and boils it all down to _four_ simple commands.
 
 Note - **requires you to be using a macbook**.
 
