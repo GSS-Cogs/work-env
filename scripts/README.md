@@ -46,7 +46,7 @@ You can also run this one with a **stand alone one liner:**
 
 #### Script: Snippet Manager (Brain)
 
-A tag based cli snippet manager. Each snippet is stored as a "thought" (an appriately named txt file) inside `/scripts/thoughts` and the format is pretty self explanatory. To add additional snippets you can either:
+A tag based cli snippet manager. Each snippet is stored as a "thought" (an approriately named txt file) inside `/scripts/thoughts` and the format is pretty self explanatory. To add additional snippets you can either:
 
 * PR them at the main branch (recommended).
 * Expand the shared snippets by exporting the path to a local directory of your own personal "thoughts" using the environment variable `ADDITIONAL_BRAIN_SNIPPETS`.
