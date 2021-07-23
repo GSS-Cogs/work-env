@@ -66,7 +66,7 @@ to update work-env. Current commands are:\n''')
 if __name__ == "__main__":
     try:
         choice = sys.argv[1]
-        additional_args = sys.args[1:]
+        additional_args = sys.argv[2:]
     except IndexError:
         choice = ""
         additional_args = []
