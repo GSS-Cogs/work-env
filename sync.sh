@@ -10,6 +10,6 @@ curl https://raw.githubusercontent.com/GSS-Cogs/databaker-docker/master/Pipfile 
 curl https://raw.githubusercontent.com/GSS-Cogs/databaker-docker/master/Pipfile.lock -o ~/.work-env/my-work-environment/Pipfile.lock
 export PIPENV_PIPFILE=~/.work-env/my-work-environment/Pipfile
 pipwnv install "wheel"
-pipenv install --skip-lock
+pipenv install
 pipenv run python3 ~/.work-env/scripts/extend_environment.py
-pipenv install --skip-lock -r ~/.work-env/additional-requirements.txt
+pipenv install -r ~/.work-env/additional-requirements.txt
