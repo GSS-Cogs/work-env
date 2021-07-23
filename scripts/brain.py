@@ -1,7 +1,7 @@
 
 # Command line snippet tool, code and concept lifted from an old pet project
 # https://github.com/mikeAdamss/brain
-# propbably needs a little love
+# probably needs a little love
 
 import os
 import sys
@@ -50,7 +50,7 @@ def find_thoughts(wanted_tags):
                 for line in f.readlines():
 
                     if line.split(" ")[0] == "tags:":
-                        tags_in_file = [x.replace("\n", "") for x in line.split(" ")][1:]
+                        tags_in_file = [x.strip("\n") for x in line.split(" ")][1:]
                         if len([t for t in wanted_tags if t in tags_in_file]) == len(wanted_tags):
 
                             if just_print_the_tags:
@@ -89,8 +89,7 @@ def find_thoughts(wanted_tags):
                 if len(tag_line) == tags_per_line:
                     print("".join(tag_line))
                     tag_line = []
-                
-                #print(count, " "*(2-len(str(count))), "|  ", tag)
+            print("".join(tag_line))
             print()
 
 # note - probably don't need this for work-env
