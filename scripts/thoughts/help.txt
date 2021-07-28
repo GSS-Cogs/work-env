@@ -14,4 +14,4 @@ Usage:
 * Call without arguments (i.e cli brain) for a summary of all tags and item count per tag.
 * Call with tags (i.e "cli brain tag1 tag2") to display relevant snippets. 
 
-Note - text colour will alternate between blue and green per snippet to keep longer or less precised lists of snippets more readable.
+Note - text colour will alternate between blue and green per snippet to keep longer lists of snippets more readable.
