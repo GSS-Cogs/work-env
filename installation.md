@@ -36,8 +36,6 @@ export WORKENV_CUSTOM_REQS="https://raw.githubusercontent.com/mikeAdamss/work-en
 
 Which (at time of writing) installs my own preference of using `better-exceptions` on top of the standard work dependencies.
 
-Feel free to pr your own preferences file in 👍
-
 ## Scripts
 
 I'm gradually adding useful scripts to this work-env. They are installed (and updated when new ones are added) automatically. For more infomation see [scripts](https://github.com/mikeAdamss/work-env/blob/main/scripts/README.md).

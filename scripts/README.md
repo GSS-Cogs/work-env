@@ -42,13 +42,3 @@ I'd suggest you also those lines to `~/.bashrc` or `~/.zshrc` directly, save rep
 You can also run this one with a **stand alone one liner:**
 
 ```curl https://raw.githubusercontent.com/mikeAdamss/work-env/main/scripts/stopit.py --output stopit.py && python3 ./stopit.py && rm ./stopit.py```
-
-
-#### Script: Snippet Manager (Brain)
-
-A tag based cli snippet manager. Each snippet is stored as a "thought" (an approriately named txt file) inside `/scripts/thoughts` and the format is pretty self explanatory. To add additional snippets you can either:
-
-* PR them at the main branch (recommended).
-* Expand the shared snippets by exporting the path to a local directory of your own personal "thoughts" using the environment variable `ADDITIONAL_BRAIN_SNIPPETS`.
-
-Note: the odd name is because its a copy paste from another somewhat facetious pet project called [brain](https://github.com/mikeAdamss/brain) and (at some point) it'll just be installed from there rather than the current copy-paste over.

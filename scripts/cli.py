@@ -14,8 +14,7 @@ def run_script(choice: str, additional_args: list):
     # NOTE: do include lower case form of each key
     commands = Box({
         "JenkinsClearQueue": ["jcq", "jenkinsclearqueue"],
-        "CheckDependencies": ["check", "checkdependencies"],
-        "ViewSnippets": ["brain", "snip", "viewsnippets"]
+        "CheckDependencies": ["check", "checkdependencies"]
     })
 
     # 2.) Simple default help
@@ -30,8 +29,6 @@ def run_script(choice: str, additional_args: list):
         CheckDependencies     check               Check your GSS-Cogs venv dependencies are 
                                                   up to date with the databaker-docker master
 
-        ViewSnippets          brain, snip         View and filter code snippets by tag.
-
         Note: Casing in commands is ignored.
         """)
 
@@ -44,10 +41,6 @@ def run_script(choice: str, additional_args: list):
     elif choice.lower() in commands.CheckDependencies:
         from check_dependencies import check_deps
         check_deps()
-
-    elif choice.lower() in commands.ViewSnippets:
-        from brain import find_thoughts
-        find_thoughts(additional_args)
 
     else:
         print(f'''\nUnrecognised command "{choice}". 

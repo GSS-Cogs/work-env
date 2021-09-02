@@ -20,7 +20,7 @@ if custom_requirements:
 
     if is_http_reqs:
         r = requests.get(custom_requirements)
-        if r.status_code != 200:
+        if not r.ok:
             raise Exception(f'Failed to get custom requirements from url '
                 f' {custom_requirements} with status code {r.status_code}')
         req_text = r.text
