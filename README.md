@@ -4,6 +4,7 @@
 A virtual environment managment tool for building and running our data transformation pipelines. 
 
 * Fully automate dependency management.
+* Updates itself, once installed you don't need to keep track of anything.
 * Loudly **warn users** where key dependencies are out of sync with live.
 * Avoid establishing a dependency on any one IDE solution.
 * Make it **easy**.
@@ -23,10 +24,8 @@ Set the branch of [databaker-docker](https://github.com/GSS-Cogs/databaker-docke
 
 * `enter` turns on your work virtual envionment **and** warns where any specified dependencies are behind the versions deployed on live.
 * `exit` turns it off.
-* `sync` automatically updates all dependencies or sycronises your venv after a change of branch.
+* `sync` automatically updates all dependencies or sycronises your venv after a change of branch. Also updates to this latest version of this tool.
 * `cli` (when you've got "my-work-environment" turned on, i.e after using `enter`) lists details and commands for all the built in scripts.
-
-`sync` also updates to the latest version of this tool, so everything should be very hands off once you've completed installation.
 
 ## Use with IDEs
 
@@ -34,8 +33,8 @@ When you `enter` your work env, you'll see `(my-work-environment)` before your t
 
 For Jupyter labs or notebooks just have `(my-work-environment)` active when you open the notebook or lab.
 
-For dev style IDE's you typically need to point the IDE at `my-work-environment`. For example, in vscode press `cmd+shift+p` then "select python interpreter" from there just select appropriately (it's a simlar process for PyCharm).
+For dev style IDE's you typically need to point the IDE at `my-work-environment`. For example, in vscode press `cmd+shift+p` then "select python interpreter" from there just select appropriately (the venv is named, just type "work-env" and it'll pop up).I believe it's a simlar process for PyCharm).
 
 ## Installation
 
-Please see [installation](https://github.com/mikeAdamss/work-env/blob/main/installation.md).
+Please see [installation](https://github.com/mikeAdamss/work-env/blob/master/installation.md).

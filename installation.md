@@ -31,11 +31,11 @@ You can add additional python dependencies by specifying a python requirements (
 For example: I've added a directory to this repo that my own extras are in which I've currently got exported via:
 
 ```
-export WORKENV_CUSTOM_REQS="https://raw.githubusercontent.com/mikeAdamss/work-env/main/user-reqs/mike.txt"
+export WORKENV_CUSTOM_REQS="https://raw.githubusercontent.com/mikeAdamss/work-env/master/user-reqs/mike.txt"
 ```
 
 Which (at time of writing) installs my own preference of using `better-exceptions` on top of the standard work dependencies.
 
 ## Scripts
 
-I'm gradually adding useful scripts to this work-env. They are installed (and updated when new ones are added) automatically. For more infomation see [scripts](https://github.com/mikeAdamss/work-env/blob/main/scripts/README.md).
+I'm gradually adding useful scripts to this work-env. They are installed (and updated when new ones are added) automatically. For more infomation see [scripts](https://github.com/mikeAdamss/work-env/blob/master/scripts/README.md).
