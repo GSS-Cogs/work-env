@@ -24,7 +24,7 @@ Set the branch of [databaker-docker](https://github.com/GSS-Cogs/databaker-docke
 
 * `enter` turns on your work virtual envionment **and** warns where any specified dependencies are behind the versions deployed on live.
 * `exit` turns it off.
-* `sync` automatically updates all dependencies or sycronises your venv after a change of branch. Also updates to this latest version of this tool.
+* `sync` automatically updates all dependencies or syncronises your venv after a change of branch. Also updates to this latest version of this tool.
 * `cli` (when you've got "my-work-environment" turned on, i.e after using `enter`) lists details and commands for all the built in scripts.
 
 ## Use with IDEs
