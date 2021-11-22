@@ -6,8 +6,8 @@ pipenv --rm
 cd ~/.work-env
 git stash
 git pull
-curl https://raw.githubusercontent.com/GSS-Cogs/databaker-docker/${WORK_ENV_BRANCH}/Pipfile -o ~/.work-env/my-work-environment/Pipfile
-curl https://raw.githubusercontent.com/GSS-Cogs/databaker-docker/${WORK_ENV_BRANCH}/Pipfile.lock -o ~/.work-env/my-work-environment/Pipfile.lock
+curl -L https://raw.githubusercontent.com/GSS-Cogs/databaker-docker/${WORK_ENV_BRANCH}/Pipfile -o ~/.work-env/my-work-environment/Pipfile
+curl -L https://raw.githubusercontent.com/GSS-Cogs/databaker-docker/${WORK_ENV_BRANCH}/Pipfile.lock -o ~/.work-env/my-work-environment/Pipfile.lock
 export PIPENV_PIPFILE=~/.work-env/my-work-environment/Pipfile
 echo Adding missing wheel where needed
 pipenv run pip install wheel
