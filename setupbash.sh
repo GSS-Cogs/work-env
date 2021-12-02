@@ -8,5 +8,5 @@ echo "" >> ~/.bashrc
 echo "# For Work-env" >> ~/.bashrc
 echo "alias enter=~/.work-env/enterbash.sh"  >> ~/.bashrc
 echo "alias sync=~/.work-env/sync.sh" >> ~/.bashrc
-echo "alias cli=\"python3 ~/.work-env/scripts/cli.py\"" >> ~bashrc
-echo "WORK_ENV_BRANCH=\"master\"" >> ~/.zshrc
+echo "alias cli=\"python3 ~/.work-env/scripts/cli.py\"" >> ~/.bashrc
+echo "WORK_ENV_BRANCH=\"master\"" >> ~/.bashrc
