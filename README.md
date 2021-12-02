@@ -20,8 +20,6 @@ Note - **requires you to be using a macbook**.
 
 Once installed:
 
-The branch of [databaker-docker](https://github.com/GSS-Cogs/databaker-docker) to use is `master`. Ifyou want to syncronise with via the environment variable `WORK_ENV_BRANCH`.
-
 * `enter` turns on your work virtual envionment **and** warns where any specified dependencies are behind the versions deployed on live.
 * `exit` turns it off.
 * `sync` automatically updates all dependencies or syncronises your venv after a change of branch. Also updates to this latest version of this tool.
