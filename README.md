@@ -25,6 +25,8 @@ Once installed:
 * `sync` automatically updates all dependencies or syncronises your venv after a change of branch. Also updates to this latest version of this tool.
 * `cli` (when you've got "my-work-environment" turned on, i.e after using `enter`) lists details and commands for all the built in scripts.
 
+The virtual env is always based on the Pipfile.lock in [databaker-docker](https://github.com/GSS-Cogs/databaker-docker). By default it will use the `master` branch, but you can alter that via an evironment variable, example `export WORK_ENV_BRANCH=test` (you will then need to `sync`).
+
 ## Use with IDEs
 
 When you `enter` your work env, you'll see `(my-work-environment)` before your terminal prompt, this means your virtual environment is active. Any command run on that terminal will have access to our full transform stack plus development packages and any personal preference packages you've specified.
