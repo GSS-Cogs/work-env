@@ -31,8 +31,8 @@ When you `enter` your work env, you'll see `(my-work-environment)` before your t
 
 For Jupyter labs or notebooks just have `(my-work-environment)` active when you open the notebook or lab.
 
-For dev style IDE's you typically need to point the IDE at `my-work-environment`. For example, in vscode press `cmd+shift+p` then "select python interpreter" from there just select appropriately (the venv is named, just type "work-env" and it'll pop up).I believe it's a simlar process for PyCharm).
+For dev style IDE's you typically need to point the IDE at `my-work-environment`. For example, in vscode press `cmd+shift+p` then "select python interpreter" from there just select appropriately (the venv is named, just type "my-work-environment" and it'll pop up - I believe it's a simlar process for PyCharm).
 
 ## Installation
 
-Please see [installation](https://github.com/mikeAdamss/work-env/blob/master/installation.md).
+Please see [installation](https://github.com/GSS-Cogs/work-env/blob/master/installation.md).

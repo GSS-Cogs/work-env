@@ -10,13 +10,8 @@ unmatched_commit = 'Library {} has unexpected commit id. Expected {}, got {}'
 def check_deps():
 
     branch = os.environ.get("WORK_ENV_BRANCH")
-    if branch != "master":
-        print("-"*10,
-            f'\nDependencies not checked, your branch is "{branch}", not "master".',
-            "\n"+"-"*10)
-        sys.exit(0)
 
-    r = requests.get("https://raw.githubusercontent.com/GSS-Cogs/databaker-docker/master/Pipfile.lock")
+    r = requests.get(f'https://raw.githubusercontent.com/GSS-Cogs/databaker-docker/{branch}/Pipfile.lock')
     if r.status_code != 200:
         print('Unable to get lock file for dependencies. Aborting check.')
     else:

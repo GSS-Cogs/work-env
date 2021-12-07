@@ -41,4 +41,4 @@ I'd suggest you also those lines to `~/.bashrc` or `~/.zshrc` directly, save rep
 
 You can also run this one with a **stand alone one liner:**
 
-```curl https://raw.githubusercontent.com/mikeAdamss/work-env/master/scripts/stopit.py --output stopit.py && python3 ./stopit.py && rm ./stopit.py```
+```curl https://raw.githubusercontent.com/GSS-Cogs/work-env/master/scripts/stopit.py --output stopit.py && python3 ./stopit.py && rm ./stopit.py```

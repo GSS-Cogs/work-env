@@ -1,5 +1,5 @@
 
-# Where the user has specified cutom python dependencies via the 
+# Where the user has specified custom python dependencies via the 
 # WORKENV_CUSTOM_REQS environment variable, add them to the
 # standard additional_requirments.txt before finishing the sync.
 
