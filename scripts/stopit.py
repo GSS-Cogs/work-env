@@ -7,7 +7,7 @@ from requests import RequestException
 def clean_jenkins_queue():
 
     # Get the contents of the queue
-    queue_url = "https://ci.floop.org.uk/queue/api/json?pretty=true"
+    queue_url = "https://ci.ukstats.dev/queue/api/json?pretty=true"
     r = requests.get(queue_url)
     if r.status_code != 200:
         raise RequestException(f'Couldn\'t get queue from url {queue_url}, status code {r.status_code}')
@@ -39,7 +39,7 @@ def clean_jenkins_queue():
 
     # Clear the queue
     for item in task_queue["items"]:
-        cancel_queue_item_url = f'https://ci.floop.org.uk/queue/cancelItem?id={item["id"]}'
+        cancel_queue_item_url = f'https://ci.ukstats.dev/queue/cancelItem?id={item["id"]}'
         print(cancel_queue_item_url)
         r = requests.post(cancel_queue_item_url, auth=(JENKINS_USER,JENKINS_API_TOKEN))
         if r.status_code != 204:
