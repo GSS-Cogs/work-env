@@ -6,15 +6,6 @@ from requests import RequestException
 
 def clean_jenkins_queue():
 
-    # Get the contents of the queue
-    queue_url = "https://ci.ukstats.dev/queue/api/json?pretty=true"
-    r = requests.get(queue_url)
-    if r.status_code != 200:
-        raise RequestException(f'Couldn\'t get queue from url {queue_url}, status code {r.status_code}')
-    task_queue = r.json()
-
-    print(f'Jenkins build queue has {len(task_queue["items"])} items in it')
-
     # Authentication
     JENKINS_USER = os.getenv("JENKINS_USER", None)
     JENKINS_API_TOKEN = os.getenv("JENKINS_API_TOKEN", None)
@@ -36,6 +27,15 @@ def clean_jenkins_queue():
     headers = {
             'Authorization': f'{JENKINS_USER}:{JENKINS_API_TOKEN}'
     }
+
+    # Get the contents of the queue
+    queue_url = "https://ci.ukstats.dev/queue/api/json?pretty=true"
+    r = requests.get(queue_url, auth=(JENKINS_USER,JENKINS_API_TOKEN))
+    if r.status_code != 200:
+        raise RequestException(f'Couldn\'t get queue from url {queue_url}, status code {r.status_code}')
+    task_queue = r.json()
+
+    print(f'Jenkins build queue has {len(task_queue["items"])} items in it')
 
     # Clear the queue
     for item in task_queue["items"]:
